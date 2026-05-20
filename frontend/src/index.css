@@ -1,0 +1,12 @@
+@import "tailwindcss";
+.dashboard {
+  transition: all 0.3s ease; /* Hace que el cambio de color sea fluido */
+  border-radius: 8px;       /* Un toque redondeado como en tu imagen */
+}
+
+/* El estado Hover */
+.dashboard:hover {
+  background-color: #ffffff !important; /* Cambia a blanco al pasar el mouse */
+  color: #007bff !important;            /* El texto cambia a azul para que se lea */
+  transform: translateX(5px);           /* Efecto de "empuje" hacia la derecha */
+}

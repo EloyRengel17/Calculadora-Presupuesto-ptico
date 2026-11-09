@@ -66,7 +66,5 @@ export class EquiposService {
     }
   }
 
-  async remove(id: number) {
-  
-  }
+ 
 }

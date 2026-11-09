@@ -35,6 +35,6 @@ export class EquiposController {
 
   @Delete(':id')
   remove(@Param('id') id: string) {
-    return this.equiposService.remove(+id);
+  //  return this.equiposService.remove(+id);
   }
 }

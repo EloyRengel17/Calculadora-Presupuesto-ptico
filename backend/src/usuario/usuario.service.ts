@@ -50,4 +50,7 @@ export class UsuarioService {
   remove(id: number) {
     return this.usuarioRepository.delete(id);
   }
+  async countAll(): Promise<number> {
+    return this.usuarioRepository.count();
+  }
 }

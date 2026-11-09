@@ -14,9 +14,7 @@ export class LoginService {
       private userRepository: Repository<User>
      ){}
 
-  create(createLoginDto: CreateLoginDto) {
-    return 'This action adds a new login';
-  }
+ 
 
   async findAll() {
     return  await  this.userRepository.find();
@@ -31,14 +29,8 @@ export class LoginService {
     return this.userRepository.findOne({ where: { usuario } });
   }
 
-  update(id: number, updateLoginDto: UpdateLoginDto) {
-    return `This action updates a #${id} login`;
-  }
-
-  remove(id: number) {
-    return `This action removes a #${id} login`;
-  }
-
+ 
+ 
  async login(body: any) {
   const user = await this.findByUsuario(body.usuario);
 // console.log(`usuario del login`, user)

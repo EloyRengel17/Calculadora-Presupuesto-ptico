@@ -17,6 +17,11 @@ export class UsuarioController {
     return this.usuarioService.findAll();
   }
 
+    @Get('count')
+  countAll() {
+    return this.usuarioService.countAll();
+  }
+
   @Get(':id')
   findOne(@Param('id') id: string) {
     return this.usuarioService.findOne(+id);
@@ -32,4 +37,5 @@ update( @Param('id', ParseIntPipe) id: number, @Body() updateUsuarioDto: UpdateU
   remove(@Param('id') id: string) {
     return this.usuarioService.remove(+id);
   }
+
 }

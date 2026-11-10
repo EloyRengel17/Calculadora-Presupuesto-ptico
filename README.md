@@ -1,3 +1,4 @@
+> **English:** Web tool that calculates the optical power budget of GPON links and helps locate network faults. Built during my internship at Inter (NestJS, React, PostgreSQL).
 # Sistema de Localización de Averías - Proyecto de Pasantías (Inter)
 
 Este repositorio contiene el "Desarrollo de un prototipo de aplicación web y móvil para la localización de averías en planta externa e interna mediante el análisis de presupuesto de potencia óptica en la Corporación Telemic C.A. (Inter), Cumaná". 
